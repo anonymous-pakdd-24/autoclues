@@ -4,7 +4,6 @@ WORKDIR /home/dump
 COPY datasets datasets
 COPY experiment experiment
 COPY resources resources
-COPY scenarios scenarios
 COPY scripts scripts
 COPY requirements.txt requirements.txt
 RUN pip install --upgrade pip && \
